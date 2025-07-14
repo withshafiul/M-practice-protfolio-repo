@@ -146,14 +146,14 @@ font-size: large;
 
            /* What our users say section start  here  */
 .main_sectionparent{
-    border: 3px solid chocolate;
+    /* border: 3px solid chocolate; */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 1280px;
     height: 500px;
     margin: 15rem auto;
-    background-color:#FFFFFF;
+    background-color: whitesmoke;
     padding: 6rem 8rem;
     flex-direction: column;
     gap: 3rem;
@@ -163,8 +163,25 @@ font-size: large;
     /* align-items: center; */
     /* justify-content: center; */
     flex-direction:row;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     gap: 3rem;
+}
+.div_one{
+    gap: 2rem;
+    background-color: #FFFFFF;
+     border-radius: 0.5rem;
+}
+
+.div_two{
+    gap: 2rem;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+}
+
+.div_three{
+    gap: 2rem;
+    background-color: #FFFFFF;
+     border-radius: 0.5rem;
 }
 
           /* What our users say section end here  */
