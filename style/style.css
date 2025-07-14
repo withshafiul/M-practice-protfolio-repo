@@ -74,9 +74,10 @@ font-size: large;
      /* justify-items: center; */
     
 }
-.hero_button :hover{
-    background-color: #04024b;
+.hero_button:hover{
+    background-color: #1712b1;
 }
+
 /* hero section end */
  /* wbbflow img section start */
  .main_section{
@@ -109,8 +110,8 @@ font-size: large;
     border-radius: 8px;
     margin-top: 2rem;
  }
- .button :hover{
-    background-color: #040231;
+ .button:hover{
+    background-color: #1712b1;
  }
 
   /* wbbflow img section end */
@@ -143,6 +144,31 @@ font-size: large;
 }
         /* amount section end heree */
 
+           /* What our users say section start  here  */
+.main_sectionparent{
+    border: 3px solid chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 500px;
+    margin: 15rem auto;
+    background-color:#FFFFFF;
+    padding: 6rem 8rem;
+    flex-direction: column;
+    gap: 3rem;
+}
+.div_mainpreent{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction:row;
+    background-color: whitesmoke;
+    gap: 3rem;
+}
+
+          /* What our users say section end here  */
+
   /* normal imgae section start  */
   .normal_image{
     /* border: 2px solid cyan; */
@@ -158,6 +184,9 @@ font-size: large;
     height: 1100px;
     width: 1280px;
 
+  }
+  button:hover{
+ background-color: #1712b1;
   }
   /* normal imgae section end */
 
